@@ -141,7 +141,7 @@ document.querySelector('.payment-summary').innerHTML =
 
 
 document.querySelector('.js-place-order').addEventListener('click', () =>{
-  document.querySelector('.js-you-placed').innerHTML= '<a href="../orders.html"><button class="place-order-button button-primary">Check your order</button></a>';  
+  document.querySelector('.js-you-placed').innerHTML= '<a href="./orders.html"><button class="place-order-button button-primary">Check your order</button></a>';  
 });
 
 
